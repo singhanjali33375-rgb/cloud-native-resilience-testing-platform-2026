@@ -77,7 +77,6 @@ Kubernetes fault tolerance validation
 Observability-driven reliability engineering
 🗺 Roadmap (docs/roadmap.md)
 Phase 1:
-
 Litmus setup
 Basic chaos experiments
 Phase 2:
