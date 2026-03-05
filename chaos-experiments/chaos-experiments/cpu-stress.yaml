@@ -1,0 +1,7 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChaosEngine
+metadata:
+  name: cpu-stress
+spec:
+  experiments:
+  - name: pod-cpu-hog
