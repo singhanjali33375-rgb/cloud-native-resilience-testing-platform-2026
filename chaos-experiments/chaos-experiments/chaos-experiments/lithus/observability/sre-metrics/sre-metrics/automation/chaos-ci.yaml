@@ -1,0 +1,12 @@
+name: Chaos Automation
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  run-chaos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Chaos
+        run: echo "Triggering chaos experiment"
